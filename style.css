@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-left{
+    width: 100%;
+    padding-left: 70px;
+}
+.nav-right{
+    width: 100%;
+    align-items: center;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+.nav-item{
+    margin: 0px 15px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgba(31, 21, 52, 1);
+    
+}
+
+.nav-bar{
+    display: flex;
+    width: 100%;
+    padding: 20px 50px 30px 50px;
+    align-items: center;
+}
+
+#nav-icon{
+    display: none;
+}
+
+
+
+
+.virtual{
+    padding-left: 130px;
+    padding-top: 50px;
+}
+
+.affordable{
+    padding-left:130px;
+    padding-top: 20px;
+    opacity: 40%;
+    font-family:"Mulish", sans-serif ;
+    font-size: 21px;
+}
+.consult{
+    padding-left: 130px;
+    padding-top: 50px;
+    border-radius: 20px;
+    width: 100%;
+
+}
+
+.consult a{
+    text-decoration: none;
+    border: 2px solid rgba(69, 143, 246, 1);
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgba(69, 143, 246, 1);
+    color: white;
+
+}
+.first-col{
+    width: 100%;
+}
+.box-container{
+    display: flex;
+    width: 100%;
+}
+
+.second-col{
+    width: 100%;
+}
+.image-container{
+    padding-left: 70px;
+    width: 100%;
+}
+
+.image{
+    width: 100%;
+}
+
+
+@media (max-width: 600px){
+
+    .nav-left{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .nav-bar{
+        padding:20px;
+    }
+    
+    .nav-right{
+        display: none;
+        width: 100%;
+    }
+    #nav-icon{
+        display: block;
+    }
+    .box-container{
+        flex-direction: column;
+    }
+    .image-container{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .image{
+        width: 100%;
+    }
+    .first-col{
+        width: 100%;
+    }
+    .second-col{
+        width: 100%;
+    }
+    .virtual, .affordable, .consult{
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .element{
+        display: none;
+    }
+    .affordable{
+        font-size: 15px;
+
+    }
+    }
